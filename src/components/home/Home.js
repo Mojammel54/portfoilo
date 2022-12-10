@@ -38,7 +38,7 @@ const Home = () => {
                     <h2 className='mt-2 text-2xl font-semibold text-stone-900 '><span className='text-white lg:text-stone-900'>A junior </span> Web Developer passionate <span className='text-white lg:text-stone-900'>about</span> creating interactive applications and experiences on the <span className='text-purple-600'>web</span>.</h2>
                     <div className='mt-20 grid grid-cols-4 gap-6'>
                         <div className='mx-auto'>
-                            <a title='Resume' target='blank' href="/"><FaFilePdf className='text-purple-600 text-4xl hover:text-purple-800 lg:mr-8'></FaFilePdf></a>
+                            <a title='Resume' target='blank' href="https://drive.google.com/file/d/1k0JCJBSGUTGoVS80sFWV15sE_uB-Rjp2/view?usp=share_link"><FaFilePdf className='text-purple-600 text-4xl hover:text-purple-800 lg:mr-8'></FaFilePdf></a>
                         </div>
                         <div>
                             <a title='GitHub' target='blank' href="https://github.com/Mojammel54    "><FaGithub className='text-purple-600 text-4xl hover:text-purple-800 '></FaGithub></a>

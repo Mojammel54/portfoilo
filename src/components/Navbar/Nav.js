@@ -18,7 +18,7 @@ const Nav = () => {
                     </div>
                     <div className="">
                         <ul className="menu xl:ml-[900px] lg:ml-[600px] md:ml-[500px] ml-32">
-                            <a className='font-bold mx-auto' href="https://drive.google.com/u/0/uc?id=1k0JCJBSGUTGoVS80sFWV15sE_uB-Rjp2&export=download"><UseAnimations animation={download}size={40} strokeColor='black' wrapperStyle={{ padding: 0 }} /> <span className='ml-[-9px]'>Resume</span> </a>
+                            <a className='font-bold mx-auto' href="https://drive.google.com/file/d/1k0JCJBSGUTGoVS80sFWV15sE_uB-Rjp2/view?usp=share_link"><UseAnimations animation={download}size={40} strokeColor='black' wrapperStyle={{ padding: 0 }} /> <span className='ml-[-9px]'>Resume</span> </a>
                         </ul>
                     </div>
                 </div>
