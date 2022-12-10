@@ -7,6 +7,7 @@ import Skills from '../skills/Skills';
 import Blog from '../Blog/Blog';
 import Projects from '../Projects/Projects';
 import { useState } from 'react';
+import Contact from '../Contact/Contact';
 
 
 const Home = () => {
@@ -76,6 +77,8 @@ const Home = () => {
 
                 </div>
             </div>
+            <div className="divider"></div>
+            <Contact></Contact>
 
         </div>
     );
