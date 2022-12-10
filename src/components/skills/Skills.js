@@ -65,29 +65,29 @@ const Skills = () => {
 
     return (
         <div>
-            <div class="px-8 py-32">
-                <div class="grid gap-8 items-start justify-center">
+            <div className="px-8">
+                <div className="grid gap-8 items-start justify-center">
                     <h1 className='pr-6 text-black font-bold'>CHECK OUT MY</h1>
-                    <div class="relative group">
-                        <div class="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-                        <button class="relative px-7 py-4 bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
-                            <span class="lg:flex items-center space-x-5">
+                    <div className="relative group">
+                        <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+                        <button className="relative px-7 py-4 bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
+                            <span className="lg:flex items-center space-x-5">
 
-                                <span class="pr-6 text-gray-100">SKILLS</span>
+                                <span className="pr-6 text-gray-100">SKILLS</span>
                             </span>
-                            <span class="p-12  text-indigo-400 group-hover:text-gray-100 transition duration-200 lg:grid lg:grid-cols-6 grid grid-cols-3 gap-10">
-                          
+                            <span className="p-12  text-indigo-400 group-hover:text-gray-100 transition duration-200 lg:grid lg:grid-cols-6 grid grid-cols-3 gap-10">
+
                                 {
 
-                                icons.map(icon => <div className='w-32'>
+                                    icons.map((icon, index) => <div key={index} className='w-32'>
 
-                                    <p className=' mx-auto text-4xl lg:grid grid-rows-2 '>{icon?.icon}</p>
-
-
-                                </div>)
+                                        <p className=' mx-auto text-4xl lg:grid grid-rows-2 '>{icon?.icon}</p>
 
 
-                            }</span>
+                                    </div>)
+
+
+                                }</span>
                         </button>
                     </div>
                 </div>

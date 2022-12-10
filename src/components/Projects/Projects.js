@@ -1,35 +1,37 @@
 import React from 'react';
 import test from './test.png'
-const Projects = () => {
+const Projects = ({ project }) => {
 
-    const projects = [
-
-        {
-
-            img: test,
-            name:'TEST-YOUR-KNOWLEDGE',
-            details:""
-
-        }
-
-
-    ]
+    console.log(project)
 
 
     return (
-        <div>
+        <div className='mb-5'>
 
-            <div class="px-8">
-                <div class="grid gap-8 items-start justify-center">
-                    <span class="pr-6 text-black font-bold ">READ MY</span>
-                    {/* <span class="pr-6 lg:hidden text-gray-100"> BLOG</span> */}
-                    <div class="relative group">
-                        <div class="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-                        <button class="relative px-7 py-4 bg-black rounded-lg leading-none lg:flex items-center lg:divide-x divide-gray-600">
-                            <span class="lg:flex items-centerspace-x-5">
-                                <span class="lg:block hidden pr-8 text-gray-100">BLOG</span>
+            <div className="px-10">
+                <div className="grid gap-8 items-start justify-center ">
+
+
+                    <div className="relative group">
+                        <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+                        <button className="relative px-7 py-4 bg-black rounded-lg leading-none lg:flex items-center lg:divide-x divide-gray-600">
+                            <span className="lg:flex items-centerspace-x-5">
+                                <span className="lg:block hidden pr-10 text-[#dc2626] font-bold uppercase h-32 w-32">{project.name}</span>
                             </span>
-                            <span class="pl-6 text-indigo-400 group-hover:text-gray-100 transition duration-200 text-xl font-semibold"> <span className='lg:hidden'>TEST-YOUR-KNOWLEDGE<br /></span> <span className='lg:hidden '>..................................................................... <br /> </span>Coming soon....</span>
+                            <div className='text-white'>
+                                <img className='hover:scale-150' src={project?.picture} alt="" />
+                                <ul>
+
+                                    <p className='mt-5 mb-5'>Details</p>
+                                    <p className='mb-3'>1.{project?.Details}</p>
+                                    <p className='mb-3'>2.{project?.Details2}</p>
+                                    <p className=''>3.{project?.Details3}. <span className='text-[#a3e635]'>{project?.Details4}</span>  </p>
+                                    <p className='mb-3'>{project?.Details5}</p>
+
+
+                                </ul>
+                            </div>
+                            {/* <span className="pl-6 text-indigo-400 group-hover:text-gray-100 transition duration-200 text-xl font-semibold"> <span className=''><br /></span>Coming soon....</span> */}
                         </button>
                     </div>
                 </div>
