@@ -12,22 +12,26 @@ import Contact from '../Contact/Contact';
 
 const Home = () => {
 
+
+
+
+
     const [projects, setProjects] = useState([])
 
 
     useEffect(() => {
 
-        fetch('projects.json')
+        fetch('https://server-mojammel54.vercel.app/categories')
             .then(res => res.json())
             .then(data => setProjects(data))
     }, [])
 
 
     return (
-        <div>
-            <div className='container mx-auto lg:flex justify-around items-start mt-20 mb-5 '>
+        <div >
+            <div id='intro' className='container mx-auto lg:flex justify-around items-start mt-20 mb-5 ' >
 
-                <div className="avatar container">
+                <div className="avatar container"  >
                     <div className="lg:w-[70%] rounded-full ring ring-primary ring-offset-green-600 ring-offset-2 hover:shadow-2xl ">
                         <img src={pic} alt='' />
                     </div>
@@ -35,7 +39,7 @@ const Home = () => {
                 <div className='lg:mt-3 '>
                     <h1 className='text-2xl font-medium mb-8'><span className='text-purple-600'>HI </span> THERE! I'M</h1>
                     <h2 className='text-4xl mt-2 font-bold'><span className='text-purple-600'>Md.Mazammel</span> Hossain</h2>
-                    <h2 className='mt-2 text-2xl font-semibold text-stone-900 '><span className='text-white lg:text-stone-900'>A junior </span> Web Developer passionate <span className='text-white lg:text-stone-900'>about</span> creating interactive applications and experiences on the <span className='text-purple-600'>web</span>.</h2>
+                    <h2 className='mt-2 text-2xl font-semibold text-stone-900 '><span className='text-white lg:text-stone-900'>A junior </span> Web Developer <span className='text-white lg:text-stone-900'>passionate</span> about creating <span className='text-white lg:text-stone-900'>interactive</span> applications and <span className='text-white lg:text-stone-900'>exp</span>eriences on the <span className='text-purple-600'>web</span>.</h2>
                     <div className='mt-20 grid grid-cols-4 gap-6'>
                         <div className='mx-auto'>
                             <a title='Resume' target='blank' href="https://drive.google.com/file/d/1k0JCJBSGUTGoVS80sFWV15sE_uB-Rjp2/view?usp=share_link"><FaFilePdf className='text-purple-600 text-4xl hover:text-purple-800 lg:mr-8'></FaFilePdf></a>
@@ -68,7 +72,7 @@ const Home = () => {
 
             <div>
                 <span className=" text-black font-bold uppercase">Projects</span>
-                <div className='grid md:grid-cols-2 mt-8'>
+                <div className='grid md:grid-cols-2 mt-8' id='projects'>
                     {
 
                         projects?.map(project => <Projects project={project} key={project._id}></Projects>)

@@ -1,8 +1,18 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import test from './test.png'
 const Projects = ({ project }) => {
-
+    const navigate = useNavigate()
     console.log(project)
+
+    const details = id => {
+
+
+        navigate(`/details/${id}`)
+
+
+
+    }
 
 
     return (
@@ -27,6 +37,7 @@ const Projects = ({ project }) => {
                                     <p className='mb-3'>2.{project?.Details2}</p>
                                     <p className=''>3.{project?.Details3}. <span className='text-[#a3e635]'>{project?.Details4}</span>  </p>
                                     <p className='mb-3'>{project?.Details5}</p>
+                                    <button onClick={() => details(project._id)} className='btn btn-sm btn-outline btn-warning'>See Details</button>
 
 
                                 </ul>

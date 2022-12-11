@@ -1,6 +1,6 @@
 [
     {
-        "_id": "1",
+       
         "picture": "https://i.ibb.co/HzsQ7Fw/10-12-2022-12-37-47-REC.png",
         "name": "Vintage Resale Market",
         "Details": "Mongo db tool is used for store data in this website",
@@ -9,7 +9,7 @@
         "Details4": " Email:admin@admin.com (Pass:123456) "
     },
     {
-        "_id": "2",
+      
         "picture": "https://i.ibb.co/QCpzJYW/10-12-2022-15-02-46-REC.png",
         "name": "Memorable Journeys",
         "Details": "It's fully Responsive With mobile Devices and tabs",
@@ -18,7 +18,7 @@
         "Details5": " JWT token is also implemented "
     },
     {
-        "_id": "3",
+       
         "picture": "https://i.ibb.co/V2qtHvt/10-12-2022-15-08-03-REC.png",
         "name": "Learn to Earn",
         "Details": "Its a Single Page Website So its fast And Organised",
@@ -27,7 +27,7 @@
         "Details5": " This site has a server site also.... "
     },
     {
-        "_id": "4",
+       
         "picture": "https://i.ibb.co/2vYS22h/10-12-2022-15-13-04-REC.png",
         "name": "Test Your Knowledge",
         "Details": "This site is made with react,react-router,tailwind,react toastify,rechart.",

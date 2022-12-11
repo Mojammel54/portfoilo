@@ -65,12 +65,12 @@ const Skills = () => {
 
     return (
         <div>
-            <div className="px-8">
+            <div className="px-8" id='skill'>
                 <div className="grid gap-8 items-start justify-center">
                     <h1 className='pr-6 text-black font-bold'>CHECK OUT MY</h1>
                     <div className="relative group">
                         <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-                        <button className="relative px-7 py-4 bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
+                        <button className="relative lg:px-7 lg:py-4 bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
                             <span className="lg:flex items-center space-x-5">
 
                                 <span className="pr-6 text-gray-100">SKILLS</span>
@@ -79,7 +79,7 @@ const Skills = () => {
 
                                 {
 
-                                    icons.map((icon, index) => <div key={index} className='w-32'>
+                                    icons.map((icon, index) => <div key={index} className='lg:w-32'>
 
                                         <p className=' mx-auto text-4xl lg:grid grid-rows-2 '>{icon?.icon}</p>
 

@@ -1,0 +1,241 @@
+[
+    {
+       
+        "pic":[
+
+            {
+    
+                "pic1": "https://i.ibb.co/sb45MFk/v.png",
+                "pic2": "https://i.ibb.co/hXKgR8H/v3.png",
+                "pic3": "https://i.ibb.co/m5x34Tz/v4.png",
+                "pic4": "https://i.ibb.co/g4wD5v0/v1.png",
+                "pic5": "https://i.ibb.co/Wcv43SH/v5.png",
+                "pic6": "https://i.ibb.co/qY9mf5X/v6.png"
+               
+                
+    
+    
+            }
+    
+    
+    
+          ],
+        "name": "Vintage Resale Market",
+        "Details": "Mongo db tool is used for store data in this website",
+        "Details2": "JWT token is also implemented for secure data ",
+        "Details3": "This website has a dashboard it will change based on user role",
+        "Details4": " Email:admin@admin.com (Pass:123456) ",
+        "cid": "6395bca6fc91cf9098035ece",
+        "live": "https://vintage-resale-market.web.app/",
+        "gc": "https://github.com/Mojammel54/Vintage-market-client-side",
+        "gs": "https://github.com/Mojammel54/Vintage-market-server",
+
+        "feature":[
+
+            {
+    
+                "f1": "This is a mobile selling website with three categories",
+                "f2": "all products arranged by its category.",
+                "f3": "If you choose a category it will only show products that matched with the category you choose.",
+                "f4": "if user choose a product a modal will open and user will give information and booking will success.",
+                "f5": "user can find their booking product on dashboard.",
+                "f6": "user can pay from there (dashboard/myorders).",
+                "f7": "Seller can add products and see products that the current seller added,he must be a seller to add a product.and also seller can delete his/her products.",
+                "f8": "Admin got all access, admin can delete seller or buyers and also see reported products ..if admin want admin can delete the reported products.",
+                "f9": "Once a product sold it will not show on categories and also in advertise section.",
+                "f10": "you get two different login options here (1)Login with email and password (2) Google",
+                "f11": "I use JWT token for advertise,categories and allbuyers so no one can access your personal information.",
+                "f12": "It has a Blog Section, here you can find most commonly ask questions.",
+                "f13": "This site has Private routes for better security..."
+                
+    
+    
+            }
+    
+    
+    
+          ],
+        "use":[
+
+            {
+    
+                "f1": "React.",
+                "f2": "React-router-dom.",
+                "f3": "Firebase.",
+                "f4": "Tailwind .",
+                "f5": "DaisyUi.",
+                "f6": "MambaUi",
+                "f7": "React-Hot-Toast.",
+                "f8": "React Query.",
+                "f9": "Axios.",
+                "f10": "JWT Token.",
+                "f11": "Express Js.",
+                "f12": "varcel.",
+                "f13": "varcel.",
+                "f14": "Carousel.",
+                "f15": "Mongodb."
+                
+    
+    
+            }
+    
+    
+    
+          ]
+    },
+
+
+    {
+       
+        "pic":[
+
+            {
+    
+                "pic1": "https://i.ibb.co/5T3WwtV/m.png",
+                "pic2": "https://i.ibb.co/0QXfKy3/m1.png",
+                "pic3": "https://i.ibb.co/9m0bLP9/m2.png",
+                "pic4": "https://i.ibb.co/GRtqFHs/m4.png",
+                "pic5": "https://i.ibb.co/GRtqFHs/m4.png",
+                "pic6": "https://i.ibb.co/3pb3t3p/m5.png"
+               
+                
+    
+    
+            }
+    
+    
+    
+          ],
+        "name": "Memorable Journeys",
+        "Details": "It's fully Responsive With mobile Devices and tabs",
+        "Details2": "Firebase is the authentication system for this website.",
+        "Details3": "mongodb tool is used for store data in this website",
+        "Details5": " JWT token is also implemented ",
+        "cid": "6395bca6fc91cf9098035ecf",
+        "live": "https://memorable-journeys-be5a9.web.app/",
+        "gc": "https://github.com/Mojammel54/Memorable-Journeys",
+        "gs": "https://github.com/Mojammel54/Memorable-Journeys-server",
+
+        "feature":[
+
+            {
+    
+                "f1": "Here you can choose places for go on a tour",
+                "f2": "You can also add tourist places where you want to go. if its missing from here.",
+                "f3": "you can see others review about the place. where u are planning to go.",
+                "f4": "you can also add reviews about your recent tours.",
+                "f5": "You can delete or update your review from this website.",
+                "f6": "you get two different login options here (1)Login with email and password (2) Google",
+                "f7": "I use JWT token for review section so no one can see your personal information.",
+                "f8": "It has a Blog Section, here you can find most commonly ask questions.",
+                "f9": "This site has Private routes for better security..."
+              
+                
+    
+    
+            }
+    
+    
+    
+          ],
+        "use":[
+
+            {
+    
+                "f1": "React.",
+                "f2": "React-router-dom.",
+                "f3": "Firebase.",
+                "f4": "Tailwind .",
+                "f5": "DaisyUi.",
+                "f6": "MambaUi",
+                "f7": "React-Hot-Toast.",
+                "f8": "React Query.",
+                "f9": "Axios.",
+                "f10": "JWT Token.",
+                "f11": "Express Js.",
+                "f12": "varcel.",
+                "f13": "varcel.",
+                "f14": "Carousel.",
+                "f15": "Mongodb."
+                
+    
+    
+            }
+    
+    
+    
+          ]
+    },
+    {
+       
+        "pic":[
+
+            {
+    
+                "pic1": "https://i.ibb.co/7WBgsK8/l.png",
+                "pic2": "https://i.ibb.co/8bMpsh0/l1.png",
+                "pic3": "https://i.ibb.co/k1RQ455/l2.png",
+                "pic4": "https://i.ibb.co/xXwFZRg/l5.png",
+                "pic5": "https://i.ibb.co/LnBKw7t/l4.png",
+                "pic6": "https://i.ibb.co/4pNMJdZ/l3.png"
+               
+                
+    
+    
+            }
+    
+    
+    
+          ],
+        "name": "Learn to Earn",
+        "Details": "Its a Single Page Website So its fast And Organised",
+        "Details2": "Firebase is the authentication system for this website.",
+        "Details3": "It's fully Responsive With mobile Devices",
+        "Details5": " This site has a server site also.... ",
+        "cid": "6395bca6fc91cf9098035ed0",
+        "live": "https://learn-to-earn-e06dc.web.app/",
+        "gc": "https://github.com/Mojammel54/Learn-to-Earn-client-side",
+        "gs": "https://github.com/Mojammel54/Learn-to-Earn-server-side",
+
+        "feature":[
+
+            {
+    
+                "f1": "We have Six Different courses",
+                "f2": "Each course offers you best deal with cheap price.",
+                "f3": "you get three different login options here (1)Login with email and password (2) Google (3) Github",
+                "f4": "It has a Blog Section, here you can find most commonly ask questions.",
+                "f5": "This site has a Private route for better security..."
+                
+              
+                
+    
+    
+            }
+    
+    
+    
+          ],
+        "use":[
+
+            {
+    
+                "f1": "React.",
+                "f2": "React-router-dom.",
+                "f3": "Firebase.",
+                "f4": "Tailwind .",
+                "f5": "DaisyUi.",
+                "f6": "MambaUi",
+                "f7": "React-Hot-Toast.",
+                "f8": "Lottieflies ",
+                "f9": "varcel. ",
+                "f10": "React-icons"
+    
+            }
+    
+    
+    
+          ]
+    }
+  
+]

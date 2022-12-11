@@ -17,7 +17,7 @@ const Contact = () => {
     }
 
     return (
-        <div className='mb-5'>
+        <div className='mb-5' id='contact'>
             <span className=" text-black font-bold uppercase text-2xl ">Say Hello</span>
             <form className='' ref={form} onSubmit={sendEmail}>
                 <span className=" text-black font-bold ">Contact Form</span>
